@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    background-image: url(./img/blue.jpg);
+
+    }
+
+    .Ashe {
+     width: 320px;
+     height: 420px;
+     background: rgb(255, 255, 255);
+     color: #000;
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     transform: translate(-50%, -50%);
+     box-sizing: border-box;
+     padding: 70px 30px;
+     border: ridge rgb(155, 152, 152);
+
+    }
+
+    .Ashe .Avatar { 
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        top: -50px;
+        left: calc(50% - 50px);
+        position:absolute;
+    }
+
+    .Ashe h1 {
+        margin: 0;
+        padding: 0 0 20px;
+        text-align: center;
+        font-size: 30px;
+        color: rgb(97, 97, 97);
+    }
+    .Ashe label {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        display: block;
+        color: #000;
+    }
+
+    .Ashe input {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .Ashe input[type="text"]{
+        border-style: inset;
+        border-image: initial;
+        border-width: 2px;
+        height: 50px;
+        font-size: 15px;
+        padding: 1px 2px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        
+    }
+    .Ashe input[type="password"] {
+        border-style: inset;
+        border-image: initial;
+        border-width: 2px;
+        height: 50px;
+        font-size: 15px;
+        padding: 1px 2px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .Ashe input[type="submit"] {
+        border: none;
+        outline: none;
+        height: 40px;
+        background: rgb(57, 2, 255);
+        color: #fff;
+        font-size: 15px;
+        font-family:monospace;
+        border-radius: 20px;
+    }
+    
+    .Ashe button {
+     display: block;
+    
+     border-radius: 10px;
+     height: 25px;
+     font-family: Arial, Helvetica, sans-serif;
+     margin: auto;
+
+    }
